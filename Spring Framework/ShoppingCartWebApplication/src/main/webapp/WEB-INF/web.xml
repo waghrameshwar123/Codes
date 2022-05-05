@@ -6,6 +6,7 @@
 
   </welcome-file-list>
   
+  
   <servlet>
   	<servlet-name>dispatcher</servlet-name>
   	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -13,5 +14,17 @@
   <servlet-mapping>
   		<servlet-name>dispatcher</servlet-name>
   		<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>ProDeatils</display-name>
+    <servlet-name>ProDeatils</servlet-name>
+    <servlet-class>com.ProDeatils</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProDeatils</servlet-name>
+    <url-pattern>/ProDeatils</url-pattern>
   </servlet-mapping>
 </web-app>

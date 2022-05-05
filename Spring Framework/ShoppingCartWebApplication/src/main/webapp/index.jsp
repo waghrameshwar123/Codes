@@ -12,7 +12,7 @@
 	<h2>Product Management System</h2><br>
 	
 	<h3><a href="addProduct.jsp">Add Product</a></h3><br><br>
-	<h3><a href="productList.jsp">Product List</a></h3>
+	<h3><a href="ProDetails">Product List</a></h3>
 	
 </div>
 </body>
